@@ -1,0 +1,38 @@
+/* styles.css */
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .document-list {
+    flex: 1;
+  }
+  
+  .document-list h2 {
+    margin-top: 0;
+  }
+  
+  .document-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .document-list li {
+    cursor: pointer;
+  }
+  
+  .document-workspace {
+    flex: 2;
+  }
+  
+  .document-workspace h2 {
+    margin-top: 0;
+  }
+  
+  #workspace {
+    border: 2px solid #ccc;
+    min-height: 300px;
+    padding: 10px;
+  }
+  

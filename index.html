@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Document Viewer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="document-list">
+      <h2>Document ID List</h2>
+      <ul id="document-list">
+        <!-- Document IDs will be dynamically added here -->
+      </ul>
+    </div>
+    <div class="document-workspace">
+      <h2>Document Workspace</h2>
+      <div id="workspace">
+        <!-- Document contents will be displayed here -->
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
